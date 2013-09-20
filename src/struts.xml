@@ -15,9 +15,28 @@
 	<action name="Logout" class="me.llss.actions.LoginAction" method="logout">
 		<result name="success">/login.jsp</result>
 	</action>
-
-
-
+	<action name="AddMetas" class="me.llss.actions.MetasAction" method="add">
+		<result name="addSuccess">/admin/message.jsp</result>
+		<result name="addFail">/admin/message.jsp</result>
+	</action>
+	<action name="DelMetas" class="me.llss.actions.MetasAction" method="del">
+		<result name="delSuccess">/admin/message.jsp</result>
+		<result name="delFail">/admin/message.jsp</result>
+	</action>
+	<action name="EditMetas" class="me.llss.actions.MetasAction" method="edit">
+		<result name="editSuccess">/admin/message.jsp</result>
+		<result name="editFail">/admin/message.jsp</result>
+	</action>
+	<action name="FindMetas" class="me.llss.actions.MetasAction" method="find">
+		<result name="findSuccess">/admin/edit-category.jsp</result>
+		<result name="findFail">/admin/edit-tag.jsp</result>
+	</action>
+	<action name="MutiDelMetas" class="me.llss.actions.MetasAction" method="mutiDel">
+		<result name="mutiDelSuccess1">/admin/message.jsp</result>
+		<result name="mutiDelFail1">//admin/message.jsp</result>
+		<result name="mutiDelSuccess2">/admin/manage-categories.jsp</result>
+		<result name="mutiDelFail2">/admin/manage-tags.jsp</result>
+	</action>
 </package>
 
 </struts>    

@@ -15,7 +15,7 @@
 		</header>
 		<div class="module_content">
 			<form id="edit-category"
-				action="servlet/MetasServlet?action=add&type=category"
+				action="AddMetas?type=category"
 				method="post">
 					<table class="form-table">
 						<tr>

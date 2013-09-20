@@ -104,10 +104,10 @@
 													</c:choose></td>
 												<td>${meta.count}</td>
 												<td><a
-													href="servlet/MetasServlet?action=find&type=category&mid=${meta.mid}"><img
+													href="FindMetas&type=category&mid=${meta.mid}"><img
 														src="images/icn_edit.png" title="编辑" style="border:0px;">
 												</a> <a
-													href="servlet/MetasServlet?action=del&type=category&mid=${meta.mid}"
+													href="DelMetas&type=category&mid=${meta.mid}"
 													onclick="return confirm('确认删除吗？')"><img
 														src="images/icn_trash.png" alt="删除" style="border:0px;" />
 												</a></td>
